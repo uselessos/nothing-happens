@@ -1,0 +1,502 @@
+[
+	{
+		"title": "nothing",
+		"tags": "",
+		"body": "nothing happens…",
+		"position": {
+			"x": 790,
+			"y": 511
+		},
+		"colorID": 0
+	},
+	{
+		"title": "something",
+		"tags": "",
+		"body": "something happened!\nnew sentence",
+		"position": {
+			"x": 2100,
+			"y": 190
+		},
+		"colorID": 0
+	},
+	{
+		"title": "tv",
+		"tags": "",
+		"body": "turn on the TV?\n[[answer:yes|nothing]]",
+		"position": {
+			"x": 800,
+			"y": 214
+		},
+		"colorID": 0
+	},
+	{
+		"title": "pc",
+		"tags": "",
+		"body": "work on the laptop?\n[[ answer: yes|nothing]]",
+		"position": {
+			"x": 790,
+			"y": 813
+		},
+		"colorID": 0
+	},
+	{
+		"title": "window0",
+		"tags": "",
+		"body": "you look out the window\nstreet filled with motion\npeople gathered here and there\nyou observe\nunusual motion\nkids play\npeople talking in small groups\nthe window looks back\nyou look out",
+		"position": {
+			"x": 2103,
+			"y": 426
+		},
+		"colorID": 0
+	},
+	{
+		"title": "window1",
+		"tags": "",
+		"body": "quiet side of your home\nnot much going on out here\njust a blackbird\nlooking for food\nmaking a mess\nsilence",
+		"position": {
+			"x": 2103,
+			"y": 426
+		},
+		"colorID": 0
+	},
+	{
+		"title": "window2",
+		"tags": "",
+		"body": "didn't you just look out the window?\nthis must be like the nth time..\nnot much to look at inside\nhoping there is something to see outside",
+		"position": {
+			"x": 2103,
+			"y": 426
+		},
+		"colorID": 0
+	},
+	{
+		"title": "window3",
+		"tags": "",
+		"body": "you look out the window\nbut you are not alone\nso many others\npeeking out to see\nothers\nhoping to see something interesting\nsomething to spark interest\nboredom\nbecause inside\nnothing happens",
+		"position": {
+			"x": 2103,
+			"y": 426
+		},
+		"colorID": 0
+	},
+	{
+		"title": "window4",
+		"tags": "",
+		"body": "just mulling over life\nat the window\nso much more going on out there than in here\nalmost like watching television\nexcept people don't need electricity\nto move their bodies\nobserving people\ndoing peopley things",
+		"position": {
+			"x": 2103,
+			"y": 426
+		},
+		"colorID": 0
+	},
+	{
+		"title": "window5",
+		"tags": "",
+		"body": "back at the window\nperhaps the most entertaining place at home\nyou wonder why you don't always gaze out like this?\nso relaxing",
+		"position": {
+			"x": 2103,
+			"y": 426
+		},
+		"colorID": 0
+	},
+	{
+		"title": "window6",
+		"tags": "",
+		"body": "the park in front, brimming with people\nkids\ndogs\npeople stretched out on the grass\nwhy doesn't anybody normally just hang out like that?\nfriends sitting with friends\nstrangers talking to strangers\nnobody on their phone\n(because phone is useless right now)\nso close, a tiny little city haven",
+		"position": {
+			"x": 2103,
+			"y": 426
+		},
+		"colorID": 0
+	},
+	{
+		"title": "window7",
+		"tags": "",
+		"body": "leaves\ngently swaying in the wind outside\nsun shining\nsun doesn't need electricity to shine\nplants don't need electricity!\nso green\nwish my body could eat sun\ngreen skin",
+		"position": {
+			"x": 2103,
+			"y": 426
+		},
+		"colorID": 0
+	},
+	{
+		"title": "book",
+		"tags": "",
+		"body": "you open the book\nthe book reminds you of other times\ntimes where time was not a matter of time\ntime stagnant\ntime infinite\ntime never-ending\nstill and perpetuous\nlike a book",
+		"position": {
+			"x": 2102,
+			"y": 664
+		},
+		"colorID": 0
+	},
+	{
+		"title": "typewriter",
+		"tags": "",
+		"body": "writing on the typewriter\nclickety clack\ntakes you deep into the self\ndemons, frustrations, joy\nthe complexity of life\ngarbled writing\nword upon word\nfeels good",
+		"position": {
+			"x": 2106,
+			"y": 942
+		},
+		"colorID": 0
+	},
+	{
+		"title": "drawing",
+		"tags": "",
+		"body": "can’t remember when you last drew\ntwisted figures emerge\ncome alive\nlines\nshapes\nwhat is this stuff?\ncoming out of your mind..",
+		"position": {
+			"x": 2107,
+			"y": 1231
+		},
+		"colorID": 0
+	},
+	{
+		"title": "bed",
+		"tags": "",
+		"body": "sleep\nwhy not?\nnot much else to do\nand it's getting dark\neverything seems so quiet \nthe absence of blue light\nno electric buzzes",
+		"position": {
+			"x": 2385,
+			"y": 187
+		},
+		"colorID": 0
+	},
+	{
+		"title": "couch",
+		"tags": "",
+		"body": "ah, lovely couch\nstare at the ceiling\na blank white canvas\nthe wall\nalso blank\ncomfy couch",
+		"position": {
+			"x": 2383,
+			"y": 451
+		},
+		"colorID": 0
+	},
+	{
+		"title": "plantOne",
+		"tags": "",
+		"body": "you observe the stillness of the plant\nyou know it's moving\nbut you cannot perceive the movement\nyou try\nas hard as you can\nknowing you’ll never catch it moving\nfinding yourself in a conundrum\nlimitations to perceptions of life",
+		"position": {
+			"x": 2387,
+			"y": 700
+		},
+		"colorID": 0
+	},
+	{
+		"title": "plantTwo",
+		"tags": "",
+		"body": "hello plant\nmight as well give you some water\nbeautiful green leaves\nsilent plant\nmoving\nin stillness",
+		"position": {
+			"x": 2387,
+			"y": 700
+		},
+		"colorID": 0
+	},
+	{
+		"title": "plantThree",
+		"tags": "",
+		"body": "potted funny friend\nflowers sprawling around\nyou begin to really notice\nthe light, reflected\nleaves stretching\ntowards the light\nhello",
+		"position": {
+			"x": 2387,
+			"y": 700
+		},
+		"colorID": 0
+	},
+	{
+		"title": "plantFour",
+		"tags": "",
+		"body": "leafy thing\nshade in the summer\na silent friend\nand suddenly you realize\nthat plants don't need electricity!\nthey just grab what they need\nfrom the sun",
+		"position": {
+			"x": 2387,
+			"y": 700
+		},
+		"colorID": 0
+	},
+	{
+		"title": "meditate",
+		"tags": "",
+		"body": "a rug\nwhy not meditate?\nempty your mind\nnothing\nzip\nblip\nnada\nnope…\nsilence",
+		"position": {
+			"x": 2384,
+			"y": 959
+		},
+		"colorID": 0
+	},
+	{
+		"title": "candles",
+		"tags": "",
+		"body": "you light the candle\nwhat a stinky thing\nnot healthy\nyou light it anyway\ndarkness, please no\nabsence of light\nyou need to see\nyou want light",
+		"position": {
+			"x": 2401,
+			"y": 1244
+		},
+		"colorID": 0
+	},
+	{
+		"title": "photoOne",
+		"tags": "",
+		"body": "you look at the photo\nmiss your people\ncannot get in touch with them\nworry\nif you ever loved, \nyou worry\nmaybe more than you love\nyou worry\nmaybe love is worry\nto miss\nto be missed\nto worry\nto want to be together",
+		"position": {
+			"x": 2681,
+			"y": 188
+		},
+		"colorID": 0
+	},
+	{
+		"title": "photoTwo",
+		"tags": "",
+		"body": "the place you go on holidays\nevery year\nthe same place\nwonder if there is enough fuel in the tank\nto drive all the way over there\nmust be chaos at the gas station\nprobably a lot of people trying to pump gas\nlucky you don't really need the car today\ndo gas pumps even work without electricity??\ntoo bad you can't walk all the way over there",
+		"position": {
+			"x": 2681,
+			"y": 188
+		},
+		"colorID": 0
+	},
+	{
+		"title": "photoThree",
+		"tags": "",
+		"body": "your parent\nalready quite old\nmust be rather distraught\nfar away\nwishing you could call\nhope they are okay\njust tell them you are okay\nwonder if they need anything\nwonder what they are up to",
+		"position": {
+			"x": 2681,
+			"y": 188
+		},
+		"colorID": 0
+	},
+	{
+		"title": "fridge",
+		"tags": "",
+		"body": "you open the fridge\nfood warming\nit will go bad\nclose the door quickly",
+		"position": {
+			"x": 2694,
+			"y": 449
+		},
+		"colorID": 0
+	},
+	{
+		"title": "apple",
+		"tags": "",
+		"body": "you bite the apple\nwhat a juicy, refreshing thing\nred and crunchy\nearthly\nmundane\napple",
+		"position": {
+			"x": 2709,
+			"y": 706
+		},
+		"colorID": 0
+	},
+	{
+		"title": "water",
+		"tags": "",
+		"body": "you drink a cup of water\ntap water\nbut there is also other water\nwater sold as better water than other water\nand other bottled water, as well\nwater contained by plastic\ntransported in plastic\nweird blob-shaped plastic with water inside\nor tap water\nbut no water comes out of the tap\npeople rush to buy water\bottled water",
+		"position": {
+			"x": 2716,
+			"y": 978
+		},
+		"colorID": 0
+	},
+	{
+		"title": "cookies",
+		"tags": "",
+		"body": "cookies!!!\nyummy cookies\ncomfort food\nstrange situtation\nwierd day\ncomfy cookies\nguilty pleasure",
+		"position": {
+			"x": 2739,
+			"y": 1228
+		},
+		"colorID": 0
+	},
+	{
+		"title": "game console",
+		"tags": "",
+		"body": "play a videogame?\n[[answer:yes|nothing]]",
+		"position": {
+			"x": 1169,
+			"y": 229
+		},
+		"colorID": 0
+	},
+	{
+		"title": "stove",
+		"tags": "",
+		"body": "cook something?\n[[answer:yes|nothing]]",
+		"position": {
+			"x": 1168,
+			"y": 517
+		},
+		"colorID": 0
+	},
+	{
+		"title": "phone",
+		"tags": "",
+		"body": "call somebody?\nno network...\nbattery level 16%",
+		"position": {
+			"x": 1142,
+			"y": 794
+		},
+		"colorID": 0
+	},
+	{
+		"title": "washing",
+		"tags": "",
+		"body": "wash some clothes?\n[[answer:yes|nothing]]",
+		"position": {
+			"x": 1137,
+			"y": 1060
+		},
+		"colorID": 0
+	},
+	{
+		"title": "toilet",
+		"tags": "",
+		"body": "use toilet?\nbut the flush doesn't work..\nsure you want to put up with the stinky contents?\nbetter get a bucket?",
+		"position": {
+			"x": 830,
+			"y": 1097
+		},
+		"colorID": 0
+	},
+	{
+		"title": "sink",
+		"tags": "",
+		"body": "use tap?\nno water",
+		"position": {
+			"x": 830,
+			"y": 1097
+		},
+		"colorID": 0
+	},
+	{
+		"title": "lights",
+		"tags": "",
+		"body": "Turn on the lights?\n[[answer:yes|nothing]]",
+		"position": {
+			"x": 592,
+			"y": 1087
+		},
+		"colorID": 0
+	},
+	{
+		"title": "stereo",
+		"tags": "",
+		"body": "listen to the radio?\na battery operated radio!\nit crackles into life\nexplains the blackout\nkeep it playing\nall day\nin touch with the outside world\nthings will be okay",
+		"position": {
+			"x": 435,
+			"y": 780
+		},
+		"colorID": 0
+	},
+	{
+		"title": "clock",
+		"tags": "",
+		"body": "a battery operated wall clock!\nwhat's the time?\ntime\nt i m e\nt  i  m  e\nt   i   m   e\nt    i    m    e\nt     i     m     e\nt      i      m      e\nt     i     m     e\nt    i    m    e\nt   i   m   e\nt  i  m  e\nt i m e\ntime\nfinite and never-ending\ntime",
+		"position": {
+			"x": 2998,
+			"y": 194
+		},
+		"colorID": 0
+	},
+	{
+		"title": "microwave",
+		"tags": "",
+		"body": "warm up some food in the microwave?\n[[answer:yes|nothing]]",
+		"position": {
+			"x": 406,
+			"y": 488
+		},
+		"colorID": 0
+	},
+	{
+		"title": "heater",
+		"tags": "",
+		"body": "turn on the heater?\n[[answer:yes|nothing]]",
+		"position": {
+			"x": 364,
+			"y": 246
+		},
+		"colorID": 0
+	},
+	{
+		"title": "leave",
+		"tags": "",
+		"body": "use the elevator?\n[[answer:yes|nothing]]",
+		"position": {
+			"x": 470,
+			"y": -36
+		},
+		"colorID": 0
+	},
+	{
+		"title": "newspaper",
+		"tags": "",
+		"body": "you open yesterday's newspaper\nhorrible, disgusting, terrible, everywhere\nblah\nput it down",
+		"position": {
+			"x": 2968,
+			"y": 702
+		},
+		"colorID": 0
+	},
+	{
+		"title": "burger",
+		"tags": "",
+		"body": "you take a bite of the burger\nout since yesterday\nnot that good…\nnot bad either…",
+		"position": {
+			"x": 2959,
+			"y": 984
+		},
+		"colorID": 0
+	},
+	{
+		"title": "intro",
+		"tags": "",
+		"body": "28th of April 2025, late morning\nall electrical power is out, everywhere\nwhile nothing happens\nsomething else happens,\nseek what happens\nor…\n\n<< set $isLastLine to true>>",
+		"position": {
+			"x": 87,
+			"y": 317
+		},
+		"colorID": 0
+	},
+	{
+		"title": "end",
+		"tags": "",
+		"body": "lights are back!!!\nbusiness as usual?\nlife as usual?\nor did something change?\nwhat do you want to do now?\nwhat is your first move?\n\n<< set $isPlayAgain to true>>",
+		"position": {
+			"x": 61,
+			"y": 576
+		},
+		"colorID": 0
+	},
+	{
+		"title": "right",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 2223,
+			"y": 206
+		},
+		"colorID": 0
+	},
+	{
+		"title": "left",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 2443,
+			"y": 206
+		},
+		"colorID": 0
+	},
+	{
+		"title": "up",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 2663,
+			"y": 206
+		},
+		"colorID": 0
+	},
+	{
+		"title": "down",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 2883,
+			"y": 206
+		},
+		"colorID": 0
+	}
+]
