@@ -1,0 +1,15 @@
+{
+  "name": "nothing happens",
+  "short_name": "nothing happens",
+  "id": "com.example.gamename",
+  "description": "",
+  "orientation": "landscape",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "black",
+  "categories": ["games", "entertainment"],
+  "icons": [{
+        "src": "idle4.png",
+        "sizes": "512x512"
+      }]
+}
