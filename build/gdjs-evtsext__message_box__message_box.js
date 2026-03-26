@@ -5,8 +5,8 @@ gdjs.evtsExt__Message_box__Message_box = gdjs.evtsExt__Message_box__Message_box 
  * Object generated from 
  */
 gdjs.evtsExt__Message_box__Message_box.Message_box = class Message_box extends gdjs.CustomRuntimeObject2D {
-  constructor(parentInstanceContainer, objectData) {
-    super(parentInstanceContainer, objectData);
+  constructor(parentInstanceContainer, objectData, instanceData) {
+    super(parentInstanceContainer, objectData, instanceData);
     this._parentInstanceContainer = parentInstanceContainer;
 
     this._onceTriggers = new gdjs.OnceTriggers();
@@ -45,6 +45,7 @@ gdjs.evtsExt__Message_box__Message_box.Message_box = class Message_box extends g
 
 // Methods:
 gdjs.evtsExt__Message_box__Message_box.Message_box.prototype.onCreatedContext = {};
+gdjs.evtsExt__Message_box__Message_box.Message_box.prototype.onCreatedContext.idToCallbackMap = new Map();
 gdjs.evtsExt__Message_box__Message_box.Message_box.prototype.onCreatedContext.GDObjectObjects1= [];
 gdjs.evtsExt__Message_box__Message_box.Message_box.prototype.onCreatedContext.GDObjectObjects2= [];
 gdjs.evtsExt__Message_box__Message_box.Message_box.prototype.onCreatedContext.GDtxtObjects1= [];
@@ -64,7 +65,8 @@ gdjs.copyArray(eventsFunctionContext.getObjects("txt"), gdjs.evtsExt__Message_bo
 {for(var i = 0, len = gdjs.evtsExt__Message_box__Message_box.Message_box.prototype.onCreatedContext.GDtxtObjects1.length ;i < len;++i) {
     gdjs.evtsExt__Message_box__Message_box.Message_box.prototype.onCreatedContext.GDtxtObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Text")).setText(eventsFunctionContext.globalVariablesForExtension.getFromIndex(0).getAsString());
 }
-}}
+}
+}
 
 }
 
@@ -75,6 +77,7 @@ gdjs.evtsExt__Message_box__Message_box.Message_box.prototype.onCreated = functio
 
 var that = this;
 var runtimeScene = this._instanceContainer;
+let scopeInstanceContainer = this._instanceContainer;
 var thisObjectList = [this];
 var Object = Hashtable.newFrom({Object: thisObjectList});
 var thisGDtxtObjectsList = [...runtimeScene.getObjects("txt")];
@@ -109,14 +112,15 @@ var eventsFunctionContext = {
   createObject: function(objectName) {
     const objectsList = eventsFunctionContext._objectsMap[objectName];
     if (objectsList) {
-      const object = parentEventsFunctionContext ?
+      const object = parentEventsFunctionContext && !(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName)) ?
         parentEventsFunctionContext.createObject(objectsList.firstKey()) :
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
         eventsFunctionContext._objectArraysMap[objectName].push(object);
       }
-      return object;    }
+      return object;
+    }
     return null;
   },
   getInstancesCountOnScene: function(objectName) {
@@ -124,7 +128,7 @@ var eventsFunctionContext = {
     let count = 0;
     if (objectsList) {
       for(const objectName in objectsList.items)
-        count += parentEventsFunctionContext ?
+        count += parentEventsFunctionContext && !(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName)) ?
 parentEventsFunctionContext.getInstancesCountOnScene(objectName) :
         runtimeScene.getInstancesCountOnScene(objectName);
     }
@@ -159,6 +163,7 @@ gdjs.CustomRuntimeObject.prototype.onCreated.call(this);
 return;
 }
 gdjs.evtsExt__Message_box__Message_box.Message_box.prototype.change_textContext = {};
+gdjs.evtsExt__Message_box__Message_box.Message_box.prototype.change_textContext.idToCallbackMap = new Map();
 gdjs.evtsExt__Message_box__Message_box.Message_box.prototype.change_textContext.GDObjectObjects1= [];
 gdjs.evtsExt__Message_box__Message_box.Message_box.prototype.change_textContext.GDObjectObjects2= [];
 gdjs.evtsExt__Message_box__Message_box.Message_box.prototype.change_textContext.GDtxtObjects1= [];
@@ -185,6 +190,7 @@ gdjs.evtsExt__Message_box__Message_box.Message_box.prototype.change_text = funct
 
 var that = this;
 var runtimeScene = this._instanceContainer;
+let scopeInstanceContainer = this._instanceContainer;
 var thisObjectList = [this];
 var Object = Hashtable.newFrom({Object: thisObjectList});
 var thisGDtxtObjectsList = [...runtimeScene.getObjects("txt")];
@@ -219,14 +225,15 @@ var eventsFunctionContext = {
   createObject: function(objectName) {
     const objectsList = eventsFunctionContext._objectsMap[objectName];
     if (objectsList) {
-      const object = parentEventsFunctionContext ?
+      const object = parentEventsFunctionContext && !(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName)) ?
         parentEventsFunctionContext.createObject(objectsList.firstKey()) :
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
         eventsFunctionContext._objectArraysMap[objectName].push(object);
       }
-      return object;    }
+      return object;
+    }
     return null;
   },
   getInstancesCountOnScene: function(objectName) {
@@ -234,7 +241,7 @@ var eventsFunctionContext = {
     let count = 0;
     if (objectsList) {
       for(const objectName in objectsList.items)
-        count += parentEventsFunctionContext ?
+        count += parentEventsFunctionContext && !(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName)) ?
 parentEventsFunctionContext.getInstancesCountOnScene(objectName) :
         runtimeScene.getInstancesCountOnScene(objectName);
     }
