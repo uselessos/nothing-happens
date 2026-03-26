@@ -1,5 +1,6 @@
 gdjs.webclickCode = {};
 gdjs.webclickCode.localVariables = [];
+gdjs.webclickCode.idToCallbackMap = new Map();
 gdjs.webclickCode.GDNewTextObjects1= [];
 gdjs.webclickCode.GDNewTextObjects2= [];
 gdjs.webclickCode.GDNewTiledSpriteObjects1= [];
@@ -22,11 +23,13 @@ gdjs.webclickCode.GDFilter_9595endObjects1= [];
 gdjs.webclickCode.GDFilter_9595endObjects2= [];
 
 
-gdjs.webclickCode.asyncCallback14550492 = function (runtimeScene, asyncObjectsList) {
+gdjs.webclickCode.asyncCallback14862396 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.webclickCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "intro", false);
-}gdjs.webclickCode.localVariables.length = 0;
 }
+gdjs.webclickCode.localVariables.length = 0;
+}
+gdjs.webclickCode.idToCallbackMap.set(14862396, gdjs.webclickCode.asyncCallback14862396);
 gdjs.webclickCode.eventsList0 = function(runtimeScene) {
 
 {
@@ -36,7 +39,7 @@ gdjs.webclickCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.webclickCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.webclickCode.asyncCallback14550492(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.webclickCode.asyncCallback14862396(runtimeScene, asyncObjectsList)), 14862396, asyncObjectsList);
 }
 }
 

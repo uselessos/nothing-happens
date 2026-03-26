@@ -1,5 +1,6 @@
 gdjs.outroCode = {};
 gdjs.outroCode.localVariables = [];
+gdjs.outroCode.idToCallbackMap = new Map();
 
 
 gdjs.outroCode.eventsList0 = function(runtimeScene) {
